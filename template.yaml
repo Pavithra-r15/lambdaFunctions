@@ -1,0 +1,142 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  lambdatestts1:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts2:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts3:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts4:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts5:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts6:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts7:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts8:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts9:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+  lambdatestts10:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 28
+      Role: 'arn:aws:iam::811050129430:role/lambda-role'
+      Environment:
+        Variables:
+          release: version
+        
+        
+        
+
+
+
+      
+        
